@@ -1,0 +1,59 @@
+
+.container {
+    text-align: center;
+    background-color: rgb(7, 7, 73);
+}
+
+h1 {
+    color: aliceblue;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.output {
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    text-align: center;  
+}
+
+.card {
+    width: 500px;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    background-color: rgb(238, 231, 231);
+    align-items: center;
+    text-align: center; 
+}
+
+.photo {
+    width: 310px;
+    height: 210px;
+    margin: 10px auto;
+    object-fit: contain;
+}
+
+.title,
+.price,
+.descr {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* border: 1px solid grey; */
+    margin-top: 5px;
+    width: 90%;
+}
+
+h2{
+    font-size: 15px;
+    color: blue;
+}
+
+h3{
+    font-size: 13px;
+    color: blue;
+}
